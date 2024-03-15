@@ -1,0 +1,49 @@
+
+body {
+    background-color: black;
+    font-size: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(255, 0, 204);
+    font-size: 1.5em;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: rgb(45, 247, 45);
+    font-size: 1em;
+}
+
+.crete-round {
+    font-family: 'Crete Round', serif;
+}
+
+.yantramanav {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.fira-code {
+    font-family: 'Fira Code', fantasy;
+}
+
+.oleo-script {
+    font-family: 'Oleo Script', cursive;
+}
+
+.satisfy {
+    font-family: 'Satisfy', monospace;
+}
