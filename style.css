@@ -1,49 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bungee+Spice&family=Crafty+Girls&family=Dancing+Script:wght@400..700&family=Gamja+Flower&family=Meow+Script&display=swap');
 
-body {
-    background-color: black;
+body{
+    background-color: rgb(255, 208, 155);
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Bungee Spice", system-ui;
+    font-size: 70px;
+}
+
+h2{
+    font-size: 25px;
+    color:white;
+}
+
+p{
+    color:antiquewhite;
+}
+
+#github{
+    color:black;
+}
+#caixa1, #caixa2, #caixa3, #caixa4, #caixa5{
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(179, 81, 2);
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: #F29F05;
+}
+
+#font-dancing-script{
+    font-family: "Dancing Script", sans-serif;
+}
+#text-dancing-script{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 25px;
+}
+
+#font-crafty-girls{
+    font-family: "Crafty Girls", serif;
+}
+#text-crafty-girls{
+    font-family: "Crafty Girls", serif;
     font-size: 20px;
 }
 
-h1, h2 {
-    text-align: center;
+#font-meow-script{
+    font-family: "Meow Script", serif;
+}
+#text-meow-script{
+    font-family: "Meow Script", serif;
+    font-size: 35px;
 }
 
-h1 {
-    color: orange;
-    font-variant: small-caps;
-    text-decoration: underline;
-    font-size: 3em;
+#font-gamja-flower{
+    font-family: "Gamja Flower", cursive;
+}
+#text-gamja-flower{
+    font-family: "Gamja Flower", cursive;
+    font-size: 30px;
 }
 
-h2 {
-    color: rgb(255, 0, 204);
-    font-size: 1.5em;
+#font-berkshire-swash{
+    font-family: "Berkshire Swash", cursive;
 }
-
-p {
-    margin-left: 20px;
-    margin-right: 20px;
-
-    color: rgb(45, 247, 45);
-    font-size: 1em;
-}
-
-.crete-round {
-    font-family: 'Crete Round', serif;
-}
-
-.yantramanav {
-    font-family: 'Yantramanav', sans-serif;
-}
-
-.fira-code {
-    font-family: 'Fira Code', fantasy;
-}
-
-.oleo-script {
-    font-family: 'Oleo Script', cursive;
-}
-
-.satisfy {
-    font-family: 'Satisfy', monospace;
+#text-berkshire-swash{
+    font-family: "Berkshire Swash", cursive;
+    font-size: 22px;
 }
